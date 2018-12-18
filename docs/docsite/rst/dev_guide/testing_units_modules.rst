@@ -388,8 +388,8 @@ mock for :meth:`Ansible.get_bin_path`::
 
     import json
 
-    from ansible.compat.tests import unittest
-    from ansible.compat.tests.mock import patch
+    from units.compat import unittest
+    from units.compat.mock import patch
     from ansible.module_utils import basic
     from ansible.module_utils._text import to_bytes
     from ansible.modules.namespace import my_module
